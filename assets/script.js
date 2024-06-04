@@ -263,19 +263,19 @@ if (grade >= 8) {
 //😠😠😠😠😠😠😠 I don't like switch statements
 
 const score = 8;
-console.log(score);
-switch (score) {
-  case score > 8 && score === 5:
+
+switch (true) {
+  case score >= 8:
     console.log('Grade A');
     break;
-  case score > 5 && score === 1:
+  case score >= 5:
     console.log('Grade B');
     break;
-  case score === 1:
+  case score >= 1:
     console.log('Grade C');
     break;
   default:
-    console.log('You have failed you exams 💥');
+    console.log('You have failed your exams 💥');
     break;
 }
 
